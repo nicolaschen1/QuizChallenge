@@ -1,0 +1,170 @@
+/**********************
+Filename: mystyle.css
+Author: Nicolas Chen
+Version: 1.0
+***********************/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-color: #0e95e7;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color:#ffffff;
+	font-size: 40px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	color: #83df19;
+}
+
+input[type='radio'] {
+	border: 0px;
+	width: 20px;
+	height: 2em;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+.quizContainer {
+	background-color: #3030A5;
+	border-radius: 20px;
+	width: 75%;
+	margin: auto;
+	margin-top: 60px;
+	padding-top: 5px;
+	position: relative;
+}
+
+.question {
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	width: 90%;
+	height: auto;
+	margin: auto;
+	border-radius: 6px;
+	background-color: #FF9800;
+	text-align: center;
+	color: #000000; /*black*/
+}
+
+.warningMessage {
+	background-color: #ffffff; /*white*/
+	border-radius: 6px;
+	font-size: 1.5em;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	padding: 2px;
+	font-family: 'Lato', sans-serif;
+	color: #f01313; /*red*/
+}
+
+.choiceList {
+	font-family: 'Lato', sans-serif;
+	color: #AB6D78;
+}
+
+.result {
+	width: 30%;
+	height: auto;
+	border-radius: 6px;
+	background-color: #AB6D78;
+	margin: auto;
+	margin-bottom: 35px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.choice {
+	float: left;
+	width: 150px;
+	height: 75px;
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: #00326E;
+	border-radius: 6px;
+	text-align: center; 
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;	
+	padding-top: 20px;
+	position: relative;
+}
+
+.choiceEnd {
+	margin: 0 auto; 
+	width: 656px; 
+	text-align: center;
+}
+
+.button {
+    white-space: nowrap;
+    padding: 20px;
+    border-radius: 6px;
+    display:inline;
+    color:#ffffff;
+    background-color: #00326E;
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    line-height:65px;
+    width: 200px;
+    height: 40px;
+    text-decoration:none;
+    text-align:center;
+}
+
+.button:hover {    
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #4fa3f7));    
+    background:-moz-linear-gradient(center top, #378de5 5%, #4fa3f7 100%);
+    cursor: pointer;
+}
+
+.button:active {
+    position:relative;
+    top:5px;
+}
+
+.nextButton {
+	border-radius: 6px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-color: #00326E;
+	/*clear: both;*/
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.nextButton:hover {    
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #4fa3f7));    
+    background:-moz-linear-gradient(center top, #378de5 5%, #4fa3f7 100%);
+    cursor: pointer;
+}
+
+.nextButton:active {
+    position:relative;
+    top:5px;
+}
+
+img.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
