@@ -4,7 +4,7 @@
 A quiz with Javascript with 10 questions to test your general culture.
 
 ## Screeshots
-
+![image1](https://github.com/nicolaschen1/QuizChallenge/blob/master/quiz_image.PNG)
 
 ## Author
 Nicolas Chen
